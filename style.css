@@ -1,0 +1,65 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-template-rows:auto auto auto;
+  background-color: #f2f3f2;
+  padding: 4px;
+  gap:1%;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+#logo >img {
+  text-align: left;
+  width: 150px;
+  height: 150px;
+
+
+    
+}
+
+#menu{
+    grid-column: span 2;
+    width: auto;
+    text-align: right;
+
+}
+#content{
+    grid-column: span 2 ;
+    height:500px;
+    text-align: start;
+
+}
+#Sponsor{
+    grid-column: span 3;
+    align-items: center;
+
+}
+#footer{
+    grid-column: span 3;
+    text-align: left;
+  
+
+}
+.m{
+    display: grid;
+    border: 1px solid black;
+    background-color: azure;
+    display: inline;
+    margin: 50px;
+  
+
+   
+
+}
+ul>li{
+    display: grid;
+    display: inline;
+    margin: 4px;
+    gap: 2px;
+}
